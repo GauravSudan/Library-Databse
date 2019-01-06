@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>DisplayServlet</servlet-name>
+        <servlet-class>DisplayServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Display</servlet-name>
+        <servlet-class>Display</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DisplayServlets</servlet-name>
+        <servlet-class>dit.DisplayServlets</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>display</servlet-name>
+        <servlet-class>display</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DisplayServlet</servlet-name>
+        <url-pattern>/DisplayServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Display</servlet-name>
+        <url-pattern>/Display</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DisplayServlets</servlet-name>
+        <url-pattern>/DisplayServlets</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>display</servlet-name>
+        <url-pattern>/display</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
